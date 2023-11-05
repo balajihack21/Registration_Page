@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+
+#signin{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #141414;
+    border:1px solid #2f2f31;
+    height:600px
+}
+form{
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+}
+input{
+    width: 300px;
+    height: 30px;
+}
+button{
+    padding:12px 24px;
+    border-radius: 5px;
+    background-color: #fd6228;
+    border:1px solid #fd6228;
+}
